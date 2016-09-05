@@ -18,13 +18,10 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         return (UIApplication.sharedApplication().delegate as! AppDelegate).memes
     }
     
-    //MARK: View Lifecycle
+    //MARK: - View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
     }
     
     override func viewWillAppear(animated: Bool) {
