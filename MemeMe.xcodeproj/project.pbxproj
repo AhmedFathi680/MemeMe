@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767E74641D74C9B20039C397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E74631D74C9B20039C397 /* AppDelegate.swift */; };
+		767E74691D74C9B20039C397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767E74671D74C9B20039C397 /* Main.storyboard */; };
+		767E746B1D74C9B20039C397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767E746A1D74C9B20039C397 /* Assets.xcassets */; };
+		767E746E1D74C9B20039C397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767E746C1D74C9B20039C397 /* LaunchScreen.storyboard */; };
+		767E74761D74CD4C0039C397 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E74751D74CD4C0039C397 /* CollectionViewController.swift */; };
+		767E74781D74CD8F0039C397 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E74771D74CD8F0039C397 /* TableViewController.swift */; };
+		767E747C1D74D0F80039C397 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E747B1D74D0F80039C397 /* TabBarController.swift */; };
+		767E747E1D74D5700039C397 /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E747D1D74D5700039C397 /* MemeEditorViewController.swift */; };
+		76A8CA511D75E98400FF1CCA /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8CA501D75E98400FF1CCA /* CustomCollectionViewCell.swift */; };
+		76A8CA531D76043200FF1CCA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8CA521D76043200FF1CCA /* CustomTableViewCell.swift */; };
+		76C5B8C01D759F2D007807A9 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5B8BF1D759F2D007807A9 /* Meme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		767E74601D74C9B10039C397 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767E74631D74C9B20039C397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		767E74681D74C9B20039C397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767E746A1D74C9B20039C397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767E746D1D74C9B20039C397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		767E746F1D74C9B20039C397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767E74751D74CD4C0039C397 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		767E74771D74CD8F0039C397 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		767E747B1D74D0F80039C397 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		767E747D1D74D5700039C397 /* MemeEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
+		76A8CA501D75E98400FF1CCA /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		76A8CA521D76043200FF1CCA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		76C5B8BF1D759F2D007807A9 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767E745D1D74C9B10039C397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767E74571D74C9B10039C397 = {
+			isa = PBXGroup;
+			children = (
+				767E74621D74C9B10039C397 /* MemeMe */,
+				767E74611D74C9B10039C397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767E74611D74C9B10039C397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767E74601D74C9B10039C397 /* MemeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767E74621D74C9B10039C397 /* MemeMe */ = {
+			isa = PBXGroup;
+			children = (
+				76C5B8C11D759F46007807A9 /* Modal */,
+				767E74631D74C9B20039C397 /* AppDelegate.swift */,
+				767E747B1D74D0F80039C397 /* TabBarController.swift */,
+				767E74771D74CD8F0039C397 /* TableViewController.swift */,
+				767E74751D74CD4C0039C397 /* CollectionViewController.swift */,
+				767E747D1D74D5700039C397 /* MemeEditorViewController.swift */,
+				76A8CA521D76043200FF1CCA /* CustomTableViewCell.swift */,
+				76A8CA501D75E98400FF1CCA /* CustomCollectionViewCell.swift */,
+				767E74671D74C9B20039C397 /* Main.storyboard */,
+				767E746A1D74C9B20039C397 /* Assets.xcassets */,
+				767E746C1D74C9B20039C397 /* LaunchScreen.storyboard */,
+				767E746F1D74C9B20039C397 /* Info.plist */,
+			);
+			path = MemeMe;
+			sourceTree = "<group>";
+		};
+		76C5B8C11D759F46007807A9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				76C5B8BF1D759F2D007807A9 /* Meme.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767E745F1D74C9B10039C397 /* MemeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767E74721D74C9B20039C397 /* Build configuration list for PBXNativeTarget "MemeMe" */;
+			buildPhases = (
+				767E745C1D74C9B10039C397 /* Sources */,
+				767E745D1D74C9B10039C397 /* Frameworks */,
+				767E745E1D74C9B10039C397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeMe;
+			productName = MemeMe;
+			productReference = 767E74601D74C9B10039C397 /* MemeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767E74581D74C9B10039C397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AhmedFathi;
+				TargetAttributes = {
+					767E745F1D74C9B10039C397 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 767E745B1D74C9B10039C397 /* Build configuration list for PBXProject "MemeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767E74571D74C9B10039C397;
+			productRefGroup = 767E74611D74C9B10039C397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767E745F1D74C9B10039C397 /* MemeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767E745E1D74C9B10039C397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767E746E1D74C9B20039C397 /* LaunchScreen.storyboard in Resources */,
+				767E746B1D74C9B20039C397 /* Assets.xcassets in Resources */,
+				767E74691D74C9B20039C397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767E745C1D74C9B10039C397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767E74761D74CD4C0039C397 /* CollectionViewController.swift in Sources */,
+				76A8CA511D75E98400FF1CCA /* CustomCollectionViewCell.swift in Sources */,
+				76A8CA531D76043200FF1CCA /* CustomTableViewCell.swift in Sources */,
+				767E747C1D74D0F80039C397 /* TabBarController.swift in Sources */,
+				767E74781D74CD8F0039C397 /* TableViewController.swift in Sources */,
+				76C5B8C01D759F2D007807A9 /* Meme.swift in Sources */,
+				767E74641D74C9B20039C397 /* AppDelegate.swift in Sources */,
+				767E747E1D74D5700039C397 /* MemeEditorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		767E74671D74C9B20039C397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767E74681D74C9B20039C397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767E746C1D74C9B20039C397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767E746D1D74C9B20039C397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767E74701D74C9B20039C397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		767E74711D74C9B20039C397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767E74731D74C9B20039C397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.MemeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767E74741D74C9B20039C397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.MemeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767E745B1D74C9B10039C397 /* Build configuration list for PBXProject "MemeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767E74701D74C9B20039C397 /* Debug */,
+				767E74711D74C9B20039C397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767E74721D74C9B20039C397 /* Build configuration list for PBXNativeTarget "MemeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767E74731D74C9B20039C397 /* Debug */,
+				767E74741D74C9B20039C397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767E74581D74C9B10039C397 /* Project object */;
+}
